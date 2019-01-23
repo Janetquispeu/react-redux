@@ -1,7 +1,7 @@
-import { addTodo } from './actions';
+// import { addTodo } from './actions';
 
-let unsubscribe = store.subscribe(() => 
-    console.log(store.getSState())
-);
+// let unsubscribe = store.subscribe(() => 
+//     console.log(store.getSState())
+// );
 
-store.dispatch(addTodo('Aprender sobre acciones'));
+// store.dispatch(addTodo('Aprender sobre acciones'));
